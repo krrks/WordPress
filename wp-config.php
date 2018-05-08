@@ -110,7 +110,7 @@ define('DB_COLLATE', '');
 
 //define('NONCE_SALT',       'put your unique phrase here');
 
-require_once("https://api.wordpress.org/secret-key/1.1/salt")
+require_once("https://api.wordpress.org/secret-key/1.1/salt");
 
 /**#@-*/
 
