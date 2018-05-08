@@ -94,23 +94,23 @@ define('DB_COLLATE', '');
 
  */
 
-//define('AUTH_KEY',         'put your unique phrase here');
+define('AUTH_KEY',         $_ENV["WP_AK"]);
 
-//define('SECURE_AUTH_KEY',  'put your unique phrase here');
+define('SECURE_AUTH_KEY',  $_ENV["WP_SAK"]);
 
-//define('LOGGED_IN_KEY',    'put your unique phrase here');
+define('LOGGED_IN_KEY',    $_ENV["WP_LIK"]);
 
-//define('NONCE_KEY',        'put your unique phrase here');
+define('NONCE_KEY',        $_ENV["WP_NK"]);
 
-//define('AUTH_SALT',        'put your unique phrase here');
+define('AUTH_SALT',        $_ENV["WP_AS"]);
 
-//define('SECURE_AUTH_SALT', 'put your unique phrase here');
+define('SECURE_AUTH_SALT', $_ENV["WP_SAS"]);
 
-//define('LOGGED_IN_SALT',   'put your unique phrase here');
+define('LOGGED_IN_SALT',   $_ENV["WP_LIS"]);
 
-//define('NONCE_SALT',       'put your unique phrase here');
+define('NONCE_SALT',       $_ENV["WP_NS"]);
 
-require_once("https://api.wordpress.org/secret-key/1.1/salt");
+//require_once("https://api.wordpress.org/secret-key/1.1/salt");
 
 /**#@-*/
 
